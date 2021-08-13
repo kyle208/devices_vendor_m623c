@@ -16,6 +16,11 @@
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+    vendor/cmcc/m623c/proprietary/etc/firmware/hbtp/hbtp_rohm_ql1500_np.cfg:system/etc/firmware/hbtp/hbtp_rohm_ql1500_np.cfg \
+    vendor/cmcc/m623c/proprietary/etc/firmware/hbtp/hbtp_rohm_ql1500_np.dat:system/etc/firmware/hbtp/hbtp_rohm_ql1500_np.dat \
+    vendor/cmcc/m623c/proprietary/etc/firmware/modem_config/mcfg_sw.mbn:system/etc/firmware/modem_config/mcfg_sw.mbn \
+    vendor/cmcc/m623c/proprietary/etc/firmware/wcd9306/wcd9306_anc.bin:system/etc/firmware/wcd9306/wcd9306_anc.bin \
+    vendor/cmcc/m623c/proprietary/etc/firmware/wcd9306/wcd9306_mbhc.bin:system/etc/firmware/wcd9306/wcd9306_mbhc.bin \
     vendor/cmcc/m623c/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/cmcc/m623c/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/cmcc/m623c/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
